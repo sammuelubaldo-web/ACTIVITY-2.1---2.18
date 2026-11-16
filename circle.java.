@@ -1,0 +1,14 @@
+/*
+name:sammuel ubaldo
+  course/section/year: BSIT NETSEC 1-1
+  */
+public class Circle {
+  public static void main(String[] args) {
+    int radius = 2;
+    double area;
+    area = radius*radius*3.142;
+
+    System.err.println("The area of the Circle is:"+""+ area);
+  }
+}
+
