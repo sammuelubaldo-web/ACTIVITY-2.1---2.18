@@ -1,0 +1,40 @@
+/*
+name:sammuel ubaldo
+  course/section/year:BSIT NETSEC 1-1
+  */
+
+import java.util.Scanner;
+
+public class ScanAndConvert {
+    public static void main(String[] args) {
+
+       
+        Scanner input = new Scanner(System.in);
+
+       
+        System.out.print("Enter your final grade in Java: 90");
+        String grade1 = input.nextLine();
+
+        System.out.print("Enter your final grade in C++:85 ");
+        String grade2 = input.nextLine();
+
+        System.out.print("Enter your final grade in C#: 95");
+        String grade3 = input.nextLine();
+
+       
+        double javaGrade = Double.parseDouble(grade1);
+        double cppGrade = Double.parseDouble(grade2);
+        double csharpGrade = Double.parseDouble(grade3);
+
+      
+        double average = (javaGrade + cppGrade + csharpGrade) / 3;
+
+      
+        System.out.println("\nJava grade: " + javaGrade);
+        System.out.println("C++ grade: " + cppGrade);
+        System.out.println("C# grade: " + csharpGrade);
+        System.out.println("Total average: " + average);
+
+        input.close();
+    }
+}
